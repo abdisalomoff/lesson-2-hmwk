@@ -1,3 +1,8 @@
+/* .modal{
+    position: absolute;
+    z-index: -1;
+} */
+
 .modal-inner {
     padding: 70px 0px 50px;
 }
@@ -114,4 +119,16 @@
 
 .hidden-modal{
     display: none;
+}
+
+
+@media only screen and (max-width: 768px){
+    .card-list{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card{
+        margin: 0 auto;
+    }
 }
